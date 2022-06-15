@@ -1,0 +1,191 @@
+/*Universal Styling*/
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(min-width:375px){
+    .container{
+        background-color: hsl(0, 0, 95%);
+        width: 100%;
+        height: 100vh;
+        font-size: 15px;
+        font-family: 'Big shoulder Display';
+        padding: 50px;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+    }
+
+    .sedans{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        width: 250px;
+        height: 400px;
+        background-color: var(--bright-orange);
+        padding: 30px;
+    
+    }
+    
+    .suvs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        width: 250px;
+        height: 400px;
+        background-color: var(--Dark-cyan);
+        padding: 20px;
+    }
+    
+    .luxury{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        width: 250px;
+        height: 400px;
+        background-color: var(--very-dark-cyan);
+        padding: 20px;
+    }
+}
+
+/*Primary colors*/
+:root{
+    --bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+}
+
+/*General container styling start*/
+@media (min-width: 768px) {
+    .container{
+        background-color: hsl(0, 0, 95%);
+        width: 100%;
+        height: 100vh;
+        font-size: 15px;
+        font-family: 'Big shoulder Display';
+        padding: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        
+    }
+
+    /*Individual Box sizing start*/
+.sedans{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 250px;
+    height: 400px;
+    background-color: var(--bright-orange);
+    padding: 20px;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+    justify-content: space-between;
+}
+
+.suvs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 250px;
+    height: 400px;
+    background-color: var(--Dark-cyan);
+    padding: 20px;
+}
+
+.luxury{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 250px;
+    height: 400px;
+    background-color: var(--very-dark-cyan);
+    padding: 20px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+/*individual box sizing end*/
+    
+}
+
+/*General container styling end*/
+
+
+.text-area{
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+   flex-wrap: wrap;
+   gap: 30px;
+   align-self: center;
+}
+
+.btn{
+    align-self: center;
+    width: 100px;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid;
+    transform: scale(1);
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-size: small;
+    font-weight: 100;
+    margin-right: 50px;
+}
+a{
+    text-decoration: none;
+}
+.sedans a{
+    color: var(--bright-orange);
+}
+.sedans a:hover{
+    color: white;
+}
+.suvs a{
+    color: var(--Dark-cyan);
+}
+
+.suvs a:hover{
+    color: white;
+}
+
+.luxury a{
+    color: var(--very-dark-cyan);
+}
+.luxury a:hover{
+    color: white;
+}
+ .btn:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.text-header{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    color: white;
+    align-self: flex-end;
+}
+
+.suvs .text-header{
+    align-self: flex-end;
+}
+
+
