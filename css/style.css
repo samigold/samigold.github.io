@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-@media(max-width:600px) and  (min-width: 375px) , (max-height:900px) {
+@media(min-width:375px){
     .container{
         background-color: hsl(0, 0, 95%);
         width: 100%;
@@ -133,6 +133,7 @@
    flex-wrap: wrap;
    gap: 30px;
    align-self: center;
+   color: white;
 }
 
 .btn{
@@ -187,8 +188,3 @@ a{
 .suvs .text-header{
     align-self: flex-end;
 }
-
-p{
-    color: white;
-}
-
