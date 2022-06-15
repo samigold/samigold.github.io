@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-@media(max-width:600px) and  (min-width: 375px) {
+@media(max-width:1080px) and  (min-width: 375px) {
     .container{
         background-color: hsl(0, 0, 95%);
         width: 100%;
