@@ -65,7 +65,6 @@
 }
 
 /*General container styling start*/
-@media (min-width: 768px) {
     .container{
         background-color: hsl(0, 0, 95%);
         width: 100%;
@@ -121,8 +120,6 @@
 }
 /*individual box sizing end*/
     
-}
-
 /*General container styling end*/
 
 
