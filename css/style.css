@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 600px){
+@media(min-width:375px){
     .container{
         background-color: hsl(0, 0, 95%);
         width: 100%;
@@ -15,9 +15,9 @@
         font-size: 15px;
         font-family: 'Big shoulder Display';
         padding: 50px;
-        display: inline-flex;
+        display: block;
         flex-direction: column;
-        justify-content: stretch;
+        justify-content: center;
         align-items: center;
         font-weight: 400;
     }
@@ -65,6 +65,7 @@
 }
 
 /*General container styling start*/
+@media (min-width: 768px) {
     .container{
         background-color: hsl(0, 0, 95%);
         width: 100%;
@@ -120,6 +121,8 @@
 }
 /*individual box sizing end*/
     
+}
+
 /*General container styling end*/
 
 
