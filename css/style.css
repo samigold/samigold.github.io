@@ -120,7 +120,7 @@ main{
 }
 
 @media only screen and (max-width: 425px) {
-    .card_wrapper {
+    .container {
         margin: 32px 8px;
     }
 }
